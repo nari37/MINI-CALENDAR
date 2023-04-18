@@ -1,0 +1,43 @@
+body{
+    background-color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.calender{
+    background-color: white;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 4px 8px rgb(0,0,0,0.3);
+}
+.months{
+    background-color: brown;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+.weekdays{
+    font-size: 1.5rem;
+    margin: 20px;
+    font-weight: bold;
+    color: darkgray;
+}
+.date-num{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.year{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+    color: darkgray;
+}
+
